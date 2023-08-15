@@ -20,7 +20,7 @@ import { UsersService } from 'src/users/users.service';
 @WebSocketGateway({
   namespace: 'orders',
   cors: {
-    origin: [clientUrl, '*'],
+    origin: [clientUrl, "https://chainmart.site", '*'],
     credentials: true,
   },
 })
