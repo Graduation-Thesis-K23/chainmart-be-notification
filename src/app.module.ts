@@ -6,6 +6,8 @@ import { configValidationSchema } from './config/validate-env';
 import { PostgresModule } from './database/postgres.module';
 import { OrdersModule } from './orders/orders.module';
 import { UsersModule } from './users/users.module';
+import { EmailModule } from './email/email.module';
+import { PhoneModule } from './phone/phone.module';
 
 @Module({
   imports: [
@@ -17,6 +19,8 @@ import { UsersModule } from './users/users.module';
     PostgresModule,
     OrdersModule,
     UsersModule,
+    EmailModule,
+    PhoneModule,
   ],
   providers: [
     {
