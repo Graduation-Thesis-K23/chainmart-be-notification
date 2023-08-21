@@ -8,6 +8,7 @@ import { OrdersModule } from './orders/orders.module';
 import { UsersModule } from './users/users.module';
 import { EmailModule } from './email/email.module';
 import { PhoneModule } from './phone/phone.module';
+import { NotificationModule } from './notification/notification.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { PhoneModule } from './phone/phone.module';
     UsersModule,
     EmailModule,
     PhoneModule,
+    NotificationModule,
   ],
   providers: [
     {
